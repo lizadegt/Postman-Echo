@@ -15,7 +15,7 @@ class PostmanEchoTest {
 
                 .then()
                 .statusCode(200)
-                .body("data",  equalTo("2021-11-05"))
+                .body("data",  equalTo("2021-11-06"))
         ;
     }
     }
